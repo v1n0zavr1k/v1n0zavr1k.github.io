@@ -1,135 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Резюме Ангелины Шутовой</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      margin: 0;
-      padding: 20px;
-      background-color: #f8f8f8; /* Светло-бежевый фон */
-      color: #333; /* Темно-серый текст */
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #666; /* Темно-серый заголовок */
-    }
-
-    .container {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 30px;
-    }
-
-    .info, .contact {
-      flex: 1;
-      padding: 20px;
-      background-color: #fff; /* Белый фон для блоков */
-      border-radius: 8px; /* Скругленные углы */
-    }
-
-    .contact {
-      text-align: right;
-    }
-
-    .section {
-      margin-bottom: 15px;
-    }
-
-    .section-title {
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #666; /* Темно-серый заголовок секции */
-    }
-
-    ul {
-      list-style-type: disc;
-      margin-left: 20px;
-      padding-left: 0;
-    }
-
-    p {
-      line-height: 1.5;
-    }
-
-    a {
-      color: #666; /* Темно-серый цвет ссылок */
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .skills-list li {
-      margin-bottom: 5px;
-    }
-
-    .highlight {
-      background-color: #f0f0f0; /* Светло-серый фон для выделений */
-      padding: 5px 10px;
-      border-radius: 4px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Ангелины Шутовой</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f0e1;
+            color: #4b3d35;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #d1a6b8;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #d49f9d;
+        }
+        h2 {
+            font-size: 2em;
+            color: #d1a6b8;
+            margin-top: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin: 20px 0;
+        }
+        .contact {
+            font-size: 1.1em;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Ангелина Шутова</h1>
-  <div class="container">
-    <div class="info">
-      <div class="section">
-        <div class="section-title">Образование</div>
-        <p>
-          Первый курс, Высшая Школа Экономики, Программа бакалавриата "Прикладной анализ данных и искусственный интеллект"
-        </p>
-      </div>
-      <div class="section">
-        <div class="section-title">Навыки</div>
-        <ul class="skills-list">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React (начальный уровень)</li>
-          <li>Python (основы)</li>
-          <li>Git</li>
-          <li>Английский язык (уровень B1)</li>
-        </ul>
-      </div>
-    </div>
-    <div class="contact">
-      <div class="section">
-        <div class="section-title">Контакты</div>
-        <p>
-          Телефон: <a href="tel:+79188395580">+7 918 839 55 80</a><br>
-          Email: <a href="mailto:v1nozavr1k@gmail.com">v1nozavr1k@gmail.com</a>
-        </p>
-      </div>
-      <div class="section">
-        <div class="section-title">Дополнительная информация</div>
-        <p>
-          Ищу возможности для развития как начинающий frontend developer.  
-          Интересуюсь современными веб-технологиями и стремлюсь к профессиональному росту. 
-          Активно изучаю новые инструменты и подходы к разработке.
-        </p>
-      </div>
-    </div>
-  </div>
 
-  <div class="section">
-    <div class="section-title">Опыт работы</div>
-    <p>
-      Исследование в области веб-дизайна.
-    </p>
-  </div>
-  <div class="section">
-    <div class="section-title">Проекты</div>
-    <p>
-      Проект для расчета совместимости исходя из знаков зодиака.
-    </p>
-  </div>
+<header>
+    <h1>Ангелина Шутова</h1>
+    <p>Студентка 1 курса ВШЭ СпБ</p>
+    <p>Программа: Прикладной анализ данных и искусственный интеллект</p>
+</header>
+
+<div class="container">
+    <section class="contact">
+        <h2>Контактная информация</h2>
+        <p>Email: angelina.shutova@example.com</p>
+        <p>Телефон: +7 (999) 123-45-67</p>
+        <p>Город: Санкт-Петербург</p>
+    </section>
+
+    <section>
+        <h2>Образование</h2>
+        <p>Вышшая школа экономики, Санкт-Петербург</p>
+        <p>Факультет: Прикладной анализ данных и искусственный интеллект</p>
+        <p>2023 - Настоящее время</p>
+    </section>
+
+    <section>
+        <h2>Навыки</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Основы React</li>
+            <li>Анализ данных с использованием Python</li>
+            <li>Работа с базами данных (SQL)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Опыт работы</h2>
+        <p>Стажировка в компании XYZ</p>
+        <p>Лето 2024 - Участие в разработке веб-приложения на JavaScript и React.</p>
+    </section>
+
+    <section>
+        <h2>Дополнительные достижения</h2>
+        <ul>
+            <li>Участие в хакатонах по веб-разработке</li>
+            <li>Создание личного проекта: сайт-портфолио</li>
+        </ul>
+    </section>
+</div>
 
 </body>
 </html>
